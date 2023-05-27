@@ -17,6 +17,7 @@ html {
   border: none;
 }
 body {
+  display: inline-block;
   font-family: DM Sans, sans-serif;
   background-color: var(--bg);
 }
@@ -179,7 +180,7 @@ body {
 }
 
 /* -- Card -- */
-/* Card 1 */
+/* Card 1-4 */
 #snp .card-container .card {
   width: 350px;
   height: 493px;
@@ -190,7 +191,6 @@ body {
 #snp .card-container .card .content {
   padding: 0.8rem 0.8rem;
   margin-top: 17rem;
-  /* background-color: aqua; */
 }
 #snp .card-container .card .content .desc-title h1 {
   font-size: 2.6rem;
@@ -198,6 +198,50 @@ body {
   font-weight: bolder;
 }
 #snp .card-container .card .content .desc-desc p {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: lighter;
+}
+/* Card 5 */
+#snp .card-container .card-5 {
+  width: 350px;
+  height: 493px;
+  background-color: #ec994b;
+  border-radius: 15px;
+  margin: 20px;
+}
+#snp .card-container .card-5 .content {
+  padding: 0.8rem 0.8rem;
+  margin-top: 14rem;
+}
+#snp .card-container .card-5 .content .desc-title h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: bolder;
+}
+#snp .card-container .card-5 .content .desc-desc p {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: lighter;
+}
+/* Card 6 */
+#snp .card-container .card-6 {
+  width: 350px;
+  height: 493px;
+  background-color: #ec994b;
+  border-radius: 15px;
+  margin: 20px;
+}
+#snp .card-container .card-6 .content {
+  padding: 0.8rem 0.8rem;
+  margin-top: 12.5rem;
+}
+#snp .card-container .card-6 .content .desc-title h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: bolder;
+}
+#snp .card-container .card-6 .content .desc-desc p {
   font-size: 1.3rem;
   margin: 0;
   font-weight: lighter;
@@ -213,6 +257,34 @@ body {
   font-size: 19px;
   font-weight: 500;
   background-color: var(--primary);
+}
+
+/* ---------- NEWS ---------- */
+#news {
+  width: fit-content;
+  /* height: 100vh; */
+  display: flex;
+  align-items: start;
+  padding: 1rem 5% 1rem 5%;
+  /* margin-top: 5%; */
+}
+#news .title-container h2 {
+  font-weight: lighter;
+  color: var(--primary3);
+  margin: 0;
+}
+#news .title-container h1 {
+  font-size: 2.5rem;
+  text-shadow: 0 3.5px 5px grey;
+  margin: 0;
+}
+#news .news-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1300px;
+  background-color: grey;
+  align-content: center;
 }
 
 /* ---------- MEDIA QUERIES ---------- */
