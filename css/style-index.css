@@ -279,11 +279,12 @@ body {
   text-shadow: 0 3.5px 5px grey;
   margin: 0;
 }
-#news .news-container {
+#news .sect-news .news-container {
+  height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 1300px;
+  width: 1200px;
   background-color: grey;
   align-content: center;
 }
